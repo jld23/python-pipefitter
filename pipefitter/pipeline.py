@@ -245,6 +245,9 @@ class PipelineModel(object):
     def __repr__(self):
         return str(self)
 
+    def predict(self, table, **kwargs):
+        pass
+
     def score(self, table, **kwargs):
         '''
         Apply transformations and score the data using the trained model
